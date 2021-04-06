@@ -237,6 +237,20 @@ describe("App", () => {
 
 ## The App
 
+**package.json**
+
+Add watch:
+
+```json
+  "scripts": {
+    "test:watch": "jest --watch",
+  },
+```
+
+This feature uses git on local so if it hasn't been done yet: `git init`
+
+Then: `npm run test:watch`
+
 ## Dependancies
 
 - [@types/jest](https://www.npmjs.com/package/@types/jest): This package contains type definitions for Jest.
