@@ -94,7 +94,20 @@ module.exports = {
         endOfLine: "auto",
       },
     ],
+    quotes: [2, "double", { avoidEscape: true }],
   },
+};
+```
+
+**.prettierrc.js**
+
+```js
+module.exports = {
+  bracketSpacing: false,
+  jsxBracketSameLine: true,
+  singleQuote: false,
+  trailingComma: "all",
+  arrowParens: "avoid",
 };
 ```
 
@@ -222,15 +235,21 @@ describe("App", () => {
 
 ![test-react-native-testing-library-passed](_readme-img/test-react-native-testing-library-passed.png)
 
+## The App
+
 ## Dependancies
 
 - [@types/jest](https://www.npmjs.com/package/@types/jest): This package contains type definitions for Jest.
 
 `npm i --save-dev @types/jest`
 
-- [@testing-library/react-native](https://www.npmjs.com/package/@testing-library/react-native): Simple and complete React Native testing utilities that encourage good testing practices..
+- [@testing-library/react-native](https://www.npmjs.com/package/@testing-library/react-native): Simple and complete React Native testing utilities that encourage good testing practices.
 
 `npm i @testing-library/react-native`
+
+- [react-native-linear-gradient](hhttps://www.npmjs.com/package/react-native-linear-gradient): https://www.npmjs.com/package/react-native-linear-gradient
+
+`npm i react-native-linear-gradient`
 
 ## Useful links
 
