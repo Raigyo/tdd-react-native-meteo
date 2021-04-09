@@ -1,5 +1,5 @@
 import React from "react";
-import {StyleSheet} from "react-native";
+import {StyleSheet, Text} from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import {Colors} from "../constants";
 
@@ -8,8 +8,9 @@ function HomeScreen() {
     <LinearGradient
       colors={[Colors.LIGHT_GRAY, Colors.DARKER_GRAY]}
       testID="home-screen"
-      style={styles.container}
-    />
+      style={styles.container}>
+      <Text>1hhh1111nlllnn</Text>
+    </LinearGradient>
   );
 }
 

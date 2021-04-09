@@ -41,6 +41,7 @@ Check that repo to easily install them: [snowdream/51-android](https://github.co
 
 - `sudo apt-get update`
 - `sudo apt install scrcpy`
+- `chmod 755 android/gradlew`
 
 #### WSL 2 / Windows
 
