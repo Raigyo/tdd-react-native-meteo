@@ -262,9 +262,13 @@ Then: `npm run test:watch`
 
 `npm i @testing-library/react-native`
 
-- [react-native-linear-gradient](hhttps://www.npmjs.com/package/react-native-linear-gradient): https://www.npmjs.com/package/react-native-linear-gradient
+- [react-native-linear-gradient](https://www.npmjs.com/package/react-native-linear-gradient): A <LinearGradient> component for react-native, as seen in react-native-login.
 
 `npm i react-native-linear-gradient`
+
+- [moment](https://www.npmjs.com/package/moment): https://www.npmjs.com/package/moment
+
+`npm i moment`
 
 ## Useful links
 
